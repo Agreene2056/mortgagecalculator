@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+<title>Mortage Calculator</title>
+</head>
+
+<body>
+	<section class="mortgage-calculator">
+    <h2>Mortgage Calculator</h2>
+
+    <label for="loanAmount">Loan Amount ($):</label>
+    <input type="number" id="loanAmount" placeholder="250000">
+
+    <label for="interestRate">Annual Interest Rate (%):</label>
+    <input type="number" id="interestRate" placeholder="6.5" step="0.01">
+
+    <label for="loanTerm">Loan Term (Years):</label>
+    <input type="number" id="loanTerm" placeholder="30">
+
+    <button id="calculateBtn">Calculate</button>
+
+    <h3>Monthly Payment:</h3>
+    <p id="result">$0.00</p>
+</section>
+
+<script src="mortgage.js"></script>
+</body>
+</html>
